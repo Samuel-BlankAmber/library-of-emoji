@@ -12,6 +12,10 @@ export function getAllEmojis(): Emoji[] {
   return emoji.search('') as Emoji[]
 }
 
+export function getAllEmojiSymbols(): string[] {
+  return getAllEmojis().map((emoji) => emoji.emoji)
+}
+
 export function genConstants() {
   const NUM_EMOJIS = getAllEmojis().length
   const N = BigInt(NUM_EMOJIS) ** BigInt(BOOK_LENGTH)
