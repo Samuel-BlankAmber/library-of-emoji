@@ -1,64 +1,13 @@
 # Library of Emoji
 
-This template should help get you started developing with Vue 3 in Vite.
+> "The Library of Emoji is a vast, incomprehensible digital abyss containing every possible combination of emojis ever conceived—and many that should never have been. Need a 📖 but only find 🍆💦🔞? That’s just how it works. Somewhere in its infinite scroll, there exists a perfectly structured essay written entirely in 🍔🔥🤖, explaining the meaning of life. But good luck finding it—you’re more likely to stumble upon an unreadable string of 🦄💩🚀 repeated for eternity. Scholars spend their days lost in its depths, seeking wisdom but mostly finding an infinite cascade of 😂😂😂" — GPT-4o (circa 2025)
 
-## Recommended IDE Setup
+## Credit where it's due
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The Library of Emoji was inspired by the Library of Babel. There's a few versions out there, but the ones I took inspiration from were [libraryofbabel.info](https://libraryofbabel.info) and [libraryofbabel.app](https://libraryofbabel.app). In particular, I found the mathematics described in the [repo for libraryofbabel.app](https://github.com/tdjsnelling/babel) very helpful.
 
-## Type Support for `.vue` Imports in TS
+## Contributions
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+If you notice any issues feel free to raise them. Likewise, if you wish to make any changes, feel free to make a pull request!
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-bun install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-bun dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-bun run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-bun test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-bun run build
-
-# Runs the end-to-end tests
-bun test:e2e
-# Runs the tests only on Chromium
-bun test:e2e --project=chromium
-# Runs the tests of a specific file
-bun test:e2e tests/example.spec.ts
-# Runs the tests in debug mode
-bun test:e2e --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-bun lint
-```
+If you would like to thank me for the creation of this ~~monstrosity~~ masterpiece, then you can contact me via my website at [samuelb.dev](https://samuelb.dev).
